@@ -1,0 +1,1 @@
+$(".js-menu-burger").on("click",(function(){$(".js-menu-mob").toggleClass("active"),$("body").toggleClass("lock")})),$(".spa__video-wrap").on("mouseenter",(function(){$(".spa__video")[0].play()})),$(".spa__video-wrap").on("mouseleave",(function(){$(".spa__video")[0].pause()}));
